@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale Conosco — Instituto RP8</title>
+  <meta name="description" content="Entre em contato com o Instituto RP8. Estamos prontos para apresentar nossas soluções em educação, saúde mental e governança empresarial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo">
+        <img src="../images/LogoIRP8.png" alt="Instituto RP8" style="height: 48px; width: auto;">
+      </a>
+      <nav class="header__nav">
+        <a href="../index.html">Home</a>
+        <div class="nav-item">
+          <a href="institucional.html">Quem Somos ▾</a>
+          <div class="nav-item__dropdown">
+            <a href="institucional.html">Institucional</a>
+            <a href="institucional.html#missao">Missão, Visão e Valores</a>
+            <a href="institucional.html#time">Nosso Time</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="educacao.html">Serviços ▾</a>
+          <div class="nav-item__dropdown">
+            <a href="educacao.html">Educação</a>
+            <a href="saude.html">Saúde (Schoolastic)</a>
+            <a href="empresarial.html">Empresarial (IRP8 Protege)</a>
+          </div>
+        </div>
+        <a href="banking.html">IRP8 Banking</a>
+        <a href="embaxadores.html">Embaixadores</a>
+        <a href="contato.html">Contato</a>
+        <a href="contato.html" class="btn btn--primary btn--sm header__cta">Agende Apresentação</a>
+      </nav>
+      <button class="header__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero hero--page">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">📞 Contato</div>
+        <h1 class="hero__title">
+          <span>Fale Conosco</span>
+        </h1>
+        <p class="hero__text">
+          Estamos prontos para apresentar nossas soluções em educação, saúde mental e governança empresarial. Entre em contato e descubra como o Instituto RP8 pode transformar a realidade da sua organização.
+        </p>
+      </div>
+    </div>
+    <div class="hero__bg-shape"></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid fade-up">
+        <div class="contact-form">
+          <h3 style="font-size: 1.4rem; margin-bottom: 24px;">Envie sua mensagem</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+              </div>
+              <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cargo">Cargo</label>
+                <input type="text" id="cargo" name="cargo" placeholder="Seu cargo">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+              </div>
+              <div class="form-group">
+                <label for="area">Área de Interesse</label>
+                <select id="area" name="area">
+                  <option value="">Selecione</option>
+                  <option value="educacao">Educação</option>
+                  <option value="saude">Saúde</option>
+                  <option value="empresarial">Empresarial</option>
+                  <option value="banking">Banking</option>
+                  <option value="embaxadores">Embaixadores</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width: 100%;">Enviar Mensagem</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="pilar-card pilar-card--emp" style="margin-bottom: 16px;">
+            <div class="pilar-card__icon">📞</div>
+            <h3 class="pilar-card__title">Telefone</h3>
+            <p class="pilar-card__text"><a href="tel:+5511991975951" style="color: var(--text);">(11) 99197-5951</a></p>
+          </div>
+
+          <div class="pilar-card pilar-card--emp" style="margin-bottom: 16px;">
+            <div class="pilar-card__icon">✉️</div>
+            <h3 class="pilar-card__title">E-mail</h3>
+            <p class="pilar-card__text"><a href="mailto:contato@irp8.org.br" style="color: var(--text);">contato@irp8.org.br</a></p>
+          </div>
+
+          <div class="pilar-card pilar-card--emp" style="margin-bottom: 16px;">
+            <div class="pilar-card__icon">💬</div>
+            <h3 class="pilar-card__title">WhatsApp</h3>
+            <p class="pilar-card__text"><a href="https://wa.me/5511991975951" target="_blank" style="color: var(--text);">(11) 99197-5951</a></p>
+          </div>
+
+          <div class="pilar-card pilar-card--emp" style="margin-bottom: 16px;">
+            <div class="pilar-card__icon">📍</div>
+            <h3 class="pilar-card__title">Endereço</h3>
+            <p class="pilar-card__text">Rua Antônio Cardoso Franco, 517, Conj. 01, Casa Branca, Santo André/SP, CEP 09015-530</p>
+          </div>
+
+          <div class="pilar-card pilar-card--emp">
+            <div class="pilar-card__icon">🌐</div>
+            <h3 class="pilar-card__title">Redes Sociais</h3>
+            <div class="footer__social" style="margin-top: 8px;">
+              <a href="https://www.linkedin.com/company/75905145/" target="_blank" title="LinkedIn">in</a>
+              <a href="https://www.facebook.com/institutorp8/" target="_blank" title="Facebook">f</a>
+              <a href="https://www.instagram.com/institutorp8/" target="_blank" title="Instagram">ig</a>
+              <a href="https://www.youtube.com/@institutorp8" target="_blank" title="YouTube">yt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section fade-up">
+    <h2>Agende uma Apresentação</h2>
+    <p>Quer apresentar as soluções do Instituto RP8 para sua organização? Agende uma conversa com nossa equipe e descubra como podemos transformar a gestão de saúde mental e governança da sua empresa.</p>
+    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+      <a href="tel:+5511991975951" class="btn btn--primary">Ligar Agora</a>
+      <a href="https://wa.me/5511991975951" class="btn btn--outline" target="_blank">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="../images/logo-horizontal.jpg" alt="Instituto RP8" style="height: 56px; width: auto; margin-bottom: 16px;">
+          <p>Tecnologia Social que transforma exigências legais em oportunidades de impacto. Educação, Saúde e Governança Empresarial com mais de 9 anos de atuação.</p>
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/company/75905145/" target="_blank" title="LinkedIn">in</a>
+            <a href="https://www.facebook.com/institutorp8/" target="_blank" title="Facebook">f</a>
+            <a href="https://www.instagram.com/institutorp8/" target="_blank" title="Instagram">ig</a>
+            <a href="https://www.youtube.com/@institutorp8" target="_blank" title="YouTube">yt</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Serviços</h4>
+          <div class="footer__links">
+            <a href="educacao.html">Educação</a>
+            <a href="saude.html">Saúde (Schoolastic)</a>
+            <a href="empresarial.html">Empresarial (IRP8 Protege)</a>
+            <a href="banking.html">IRP8 Banking</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Instituto</h4>
+          <div class="footer__links">
+            <a href="institucional.html">Quem Somos</a>
+            <a href="institucional.html#missao">Missão e Valores</a>
+            <a href="institucional.html#time">Nosso Time</a>
+            <a href="embaxadores.html">Programa Embaixadores</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Contato</h4>
+          <div class="footer__links">
+            <a href="tel:+5511991975951">(11) 99197-5951</a>
+            <a href="mailto:contato@irp8.org.br">contato@irp8.org.br</a>
+            <a href="contato.html">Formulário de Contato</a>
+            <a href="#">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Instituto RP8 — Todos os direitos reservados.</span>
+        <div class="footer__bottom-links">
+          <a href="politica.html">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="whatsapp-btn" title="WhatsApp">💬</a>
+
+  <div class="cookie-banner">
+    <span>Este site usa cookies para garantir a melhor experiência. Ao clicar em aceito, você concorda com nossa <a href="politica.html">Política de Privacidade</a>.</span>
+    <button class="btn btn--primary btn--sm btn-accept">Aceitar</button>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
